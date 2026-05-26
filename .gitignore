@@ -216,6 +216,3 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-
-# datasets > 100 MB
-data/raw/stackoverflow_2025_results.csv
