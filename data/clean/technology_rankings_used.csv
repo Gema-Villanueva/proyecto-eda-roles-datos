@@ -1,0 +1,187 @@
+category,type,technology,count
+Base de datos,usada,PostgreSQL,14529
+Base de datos,usada,MySQL,10581
+Base de datos,usada,SQLite,9798
+Base de datos,usada,Microsoft SQL Server,7871
+Base de datos,usada,Redis,7316
+Base de datos,usada,MongoDB,6267
+Base de datos,usada,MariaDB,5862
+Base de datos,usada,Elasticsearch,4347
+Base de datos,usada,Oracle,2761
+Base de datos,usada,Dynamodb,2551
+Base de datos,usada,BigQuery,1705
+Base de datos,usada,Supabase,1558
+Base de datos,usada,Cloud Firestore,1494
+Base de datos,usada,H2,1303
+Base de datos,usada,Firebase Realtime Database,1299
+Base de datos,usada,Microsoft Access,1244
+Base de datos,usada,Cosmos DB,1190
+Base de datos,usada,Snowflake,1079
+Base de datos,usada,InfluxDB,963
+Base de datos,usada,Databricks SQL,895
+Base de datos,usada,DuckDB,863
+Base de datos,usada,Cassandra,766
+Base de datos,usada,Neo4J,691
+Base de datos,usada,Valkey,632
+Base de datos,usada,Clickhouse,627
+Base de datos,usada,IBM DB2,615
+Base de datos,usada,Amazon Redshift,611
+Base de datos,usada,Cockroachdb,262
+Base de datos,usada,Pocketbase,262
+Base de datos,usada,Datomic,148
+Entorno desarrollo,usada,Visual Studio Code,19872
+Entorno desarrollo,usada,Visual Studio,7587
+Entorno desarrollo,usada,Notepad++,7176
+Entorno desarrollo,usada,IntelliJ IDEA,7107
+Entorno desarrollo,usada,Vim,6355
+Entorno desarrollo,usada,Cursor,4681
+Entorno desarrollo,usada,PyCharm,3938
+Entorno desarrollo,usada,Android Studio,3916
+Entorno desarrollo,usada,Jupyter Notebook/JupyterLab,3683
+Entorno desarrollo,usada,Neovim,3663
+Entorno desarrollo,usada,Nano,3204
+Entorno desarrollo,usada,Sublime Text,2736
+Entorno desarrollo,usada,Xcode,2622
+Entorno desarrollo,usada,Claude Code,2538
+Entorno desarrollo,usada,WebStorm,2004
+Entorno desarrollo,usada,Zed,1906
+Entorno desarrollo,usada,Rider,1869
+Entorno desarrollo,usada,Eclipse,1860
+Entorno desarrollo,usada,VSCodium,1627
+Entorno desarrollo,usada,PhpStorm,1528
+Entorno desarrollo,usada,Windsurf,1275
+Entorno desarrollo,usada,RustRover,849
+Entorno desarrollo,usada,Lovable.dev,623
+Entorno desarrollo,usada,Bolt,600
+Entorno desarrollo,usada,Cline and/or Roo,574
+Entorno desarrollo,usada,Aider,504
+Entorno desarrollo,usada,Trae,219
+Framework web,usada,Node.js,11544
+Framework web,usada,React,10596
+Framework web,usada,jQuery,5541
+Framework web,usada,Next.js,4933
+Framework web,usada,Express,4710
+Framework web,usada,ASP.NET Core,4664
+Framework web,usada,Angular,4319
+Framework web,usada,Vue.js,4162
+Framework web,usada,FastAPI,3504
+Framework web,usada,Spring Boot,3481
+Framework web,usada,Flask,3406
+Framework web,usada,ASP.NET,3360
+Framework web,usada,WordPress,3227
+Framework web,usada,Django,2980
+Framework web,usada,Laravel,2111
+Framework web,usada,AngularJS,1718
+Framework web,usada,Svelte,1717
+Framework web,usada,Blazor,1648
+Framework web,usada,NestJS,1596
+Framework web,usada,Ruby on Rails,1395
+Framework web,usada,Astro,1058
+Framework web,usada,Deno,960
+Framework web,usada,Symfony,949
+Framework web,usada,Nuxt.js,948
+Framework web,usada,Fastify,692
+Framework web,usada,Axum,671
+Framework web,usada,Phoenix,568
+Framework web,usada,Drupal,526
+Lenguaje,usada,JavaScript,21005
+Lenguaje,usada,HTML/CSS,19698
+Lenguaje,usada,SQL,18633
+Lenguaje,usada,Python,18410
+Lenguaje,usada,Bash/Shell (all shells),15503
+Lenguaje,usada,TypeScript,13859
+Lenguaje,usada,Java,9358
+Lenguaje,usada,C#,8852
+Lenguaje,usada,C++,7485
+Lenguaje,usada,PowerShell,7371
+Lenguaje,usada,C,6987
+Lenguaje,usada,PHP,5994
+Lenguaje,usada,Go,5219
+Lenguaje,usada,Rust,4724
+Lenguaje,usada,Kotlin,3420
+Lenguaje,usada,Lua,2910
+Lenguaje,usada,Assembly,2246
+Lenguaje,usada,Ruby,2046
+Lenguaje,usada,Dart,1885
+Lenguaje,usada,Swift,1719
+Lenguaje,usada,R,1569
+Lenguaje,usada,Groovy,1535
+Lenguaje,usada,Visual Basic (.Net),1409
+Lenguaje,usada,VBA,1334
+Lenguaje,usada,MATLAB,1231
+Lenguaje,usada,Perl,1215
+Lenguaje,usada,GDScript,1062
+Lenguaje,usada,Elixir,847
+Lenguaje,usada,Scala,843
+Lenguaje,usada,Delphi,796
+Lenguaje,usada,Lisp,753
+Lenguaje,usada,MicroPython,723
+Lenguaje,usada,Zig,680
+Lenguaje,usada,Erlang,465
+Lenguaje,usada,Fortran,449
+Lenguaje,usada,Ada,431
+Lenguaje,usada,F#,406
+Lenguaje,usada,OCaml,367
+Lenguaje,usada,Gleam,354
+Lenguaje,usada,Prolog,338
+Lenguaje,usada,COBOL,308
+Lenguaje,usada,Mojo,145
+Modelo / herramienta IA,usada,openAI GPT (chatbot models),13424
+Modelo / herramienta IA,usada,Anthropic: Claude Sonnet,7063
+Modelo / herramienta IA,usada,Gemini (Flash general purpose models),5823
+Modelo / herramienta IA,usada,openAI Reasoning models,5716
+Modelo / herramienta IA,usada,openAI Image generating models,4395
+Modelo / herramienta IA,usada,Gemini (Pro Reasoning models),4221
+Modelo / herramienta IA,usada,DeepSeek (R- Reasoning models),3848
+Modelo / herramienta IA,usada,Meta Llama (all models),2941
+Modelo / herramienta IA,usada,DeepSeek (V- General purpose models),2363
+Modelo / herramienta IA,usada,X Grok models,1839
+Modelo / herramienta IA,usada,Mistral AI models,1712
+Modelo / herramienta IA,usada,Perplexity Sonar models,1250
+Modelo / herramienta IA,usada,Alibaba Cloud Qwen models,864
+Modelo / herramienta IA,usada,Microsoft Phi-4 models,833
+Modelo / herramienta IA,usada,Amazon Titan models,283
+Modelo / herramienta IA,usada,Cohere: Command A,139
+Modelo / herramienta IA,usada,Reka (Flash 3 or other Reka models),57
+Plataforma / Cloud,usada,Docker,17414
+Plataforma / Cloud,usada,npm,13906
+Plataforma / Cloud,usada,Amazon Web Services (AWS),10618
+Plataforma / Cloud,usada,Pip,10025
+Plataforma / Cloud,usada,Kubernetes,6993
+Plataforma / Cloud,usada,Microsoft Azure,6447
+Plataforma / Cloud,usada,Homebrew,6291
+Plataforma / Cloud,usada,Vite,6215
+Plataforma / Cloud,usada,Google Cloud,6015
+Plataforma / Cloud,usada,Make,5682
+Plataforma / Cloud,usada,Yarn,5178
+Plataforma / Cloud,usada,Cloudflare,4923
+Plataforma / Cloud,usada,NuGet,4637
+Plataforma / Cloud,usada,APT,4516
+Plataforma / Cloud,usada,Webpack,4500
+Plataforma / Cloud,usada,Terraform,4349
+Plataforma / Cloud,usada,Maven (build tool),4022
+Plataforma / Cloud,usada,Gradle,3523
+Plataforma / Cloud,usada,Cargo,3521
+Plataforma / Cloud,usada,pnpm,3290
+Plataforma / Cloud,usada,Firebase,3200
+Plataforma / Cloud,usada,Prometheus,2883
+Plataforma / Cloud,usada,Ansible,2878
+Plataforma / Cloud,usada,Podman,2730
+Plataforma / Cloud,usada,Chocolatey,2706
+Plataforma / Cloud,usada,Composer,2701
+Plataforma / Cloud,usada,MSBuild,2700
+Plataforma / Cloud,usada,Digital Ocean,2621
+Plataforma / Cloud,usada,Vercel,2602
+Plataforma / Cloud,usada,Poetry,2214
+Plataforma / Cloud,usada,Datadog,2169
+Plataforma / Cloud,usada,Pacman,2124
+Plataforma / Cloud,usada,Netlify,1433
+Plataforma / Cloud,usada,Bun,1344
+Plataforma / Cloud,usada,Supabase,1320
+Plataforma / Cloud,usada,Heroku,1318
+Plataforma / Cloud,usada,Ninja,1272
+Plataforma / Cloud,usada,Splunk,1105
+Plataforma / Cloud,usada,New Relic,936
+Plataforma / Cloud,usada,Railway,360
+Plataforma / Cloud,usada,IBM Cloud,294
+Plataforma / Cloud,usada,Yandex Cloud,165
