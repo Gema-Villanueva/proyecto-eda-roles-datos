@@ -239,3 +239,9 @@ data/raw/*
 !data/raw/.gitkeep
 data/clean/*
 !data/clean/.gitkeep
+
+# Material auxiliar de estudio generado fuera del entregable del proyecto
+docs/guia_estudio_graficos_visualizacion.md
+docs/figures/
+notebooks/guia_estudio_graficos_visualizacion.ipynb
+scripts/build_visual_manifest.py
