@@ -1,0 +1,12 @@
+check,passed,detail
+jobs_all_clean_required_columns,True,Columnas faltantes / Missing columns: []
+jobs_all_clean_not_empty,True,Filas / Rows: 2167
+job_id_unique,True,job_id es único / job_id is unique
+tecno_columns_standardized,True,"Columnas de tecno_jobs_clean / tecno_jobs_clean columns: ['job_title', 'company', 'location', 'salary', 'job_type', 'post_date', 'link', 'skills', 'industry', 'seniority_level', 'source_dataset']"
+stack_columns_snake_case,True,"Columnas de stack_tech_columns_clean / stack_tech_columns_clean columns: ['response_id', 'language_have_worked_with', 'language_want_to_work_with', 'database_have_worked_with', 'database_want_to_work_with', 'platform_have_worked_with', 'platform_want_to_work_with', 'web_framework_have_worked_with', 'web_framework_want_to_work_with', 'development_environment_have_worked_with', 'development_environment_want_to_work_with', 'ai_model_have_worked_with', 'ai_model_want_to_work_with']"
+technologies_response_id_standardized,True,"Columnas de df_tech_clean / df_tech_clean columns: ['response_id', 'technology', 'category', 'type']"
+salary_clean_numeric,True,salary_clean debe ser numérica / salary_clean should be numeric
+is_remote_boolean,True,Validacion reconstruida en EDA: is_remote contiene booleanos / Rebuilt in EDA: is_remote contains booleans
+job_skills_long_has_expected_columns,True,"Columnas / Columns: ['job_id', 'job_title', 'source_dataset', 'skill']"
+scraping_raw_integrated_when_available,True,Filas raw scraping / Integrated scraping rows: 625 / 625
+expected_clean_files_exist,True,Archivos faltantes / Missing files: []
