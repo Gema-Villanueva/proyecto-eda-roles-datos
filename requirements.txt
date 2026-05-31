@@ -109,3 +109,7 @@ webcolors==25.10.0
 webencodings==0.5.1
 websocket-client==1.9.0
 widgetsnbextension==4.0.15
+squarify==0.4.4
+statsmodels==0.14.4
+kaleido==0.2.1
+plotly==5.15.0
