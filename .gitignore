@@ -245,3 +245,6 @@ docs/guia_estudio_graficos_visualizacion.md
 docs/figures/
 notebooks/guia_estudio_graficos_visualizacion.ipynb
 scripts/build_visual_manifest.py
+images/
+data/clean/*.csv
+data/eda/*.csv
