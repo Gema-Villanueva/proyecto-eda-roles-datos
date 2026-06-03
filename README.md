@@ -53,6 +53,8 @@ proyecto-eda-roles-datos/
 
 ## 📦 Instalación
 
+
+
 ### 1. Clonar el repositorio
 
 ```bash
@@ -87,6 +89,7 @@ cp .env.example .env
 
 # Editar .env con tus credenciales si es necesario
 ```
+csv. datos crudos `https://drive.google.com/open?id=1yGtgnOYpL3Qkzyzitylsg1iRKnwoznI_&usp=drive_copy`
 
 ---
 
@@ -195,3 +198,67 @@ Para preguntas o sugerencias sobre este proyecto, contacta con [Gema-Villanueva]
 ---
 
 **Última actualización**: 2 de junio de 2026
+
+
+## app streamlit
+## App interactiva con Streamlit
+
+El proyecto incluye una aplicación interactiva desarrollada con Streamlit para explorar los resultados del EDA de forma visual y dinámica. La app permite analizar ofertas laborales de roles de datos, filtrar la información por distintas variables y obtener conclusiones orientadas a negocio para DataTalent Solutions S.L.
+
+El dashboard utiliza los datos generados en las fases de limpieza y EDA del repositorio, principalmente los archivos de `data/eda` y, cuando es necesario, los archivos de respaldo de `data/clean`.
+
+### Funcionalidades principales
+
+- Visualización de KPIs generales: número de ofertas, salario medio, salario mediano, skills únicas y porcentaje de salarios informados.
+- Filtros interactivos por rango salarial, familia de rol, seniority, sector, modalidad, fuente de datos y ciudad.
+- Análisis del mercado laboral por volumen de ofertas, ciudades, sectores y familias de rol.
+- Ranking de skills técnicas más demandadas.
+- Comparación de tecnologías usadas y deseadas.
+- Análisis de skills con mejor combinación entre alta demanda y buen salario.
+- Visualización de distribución salarial y comparación por grupos.
+- Revisión de posibles sesgos derivados de datos incompletos, especialmente salarios no informados.
+- Panel de calidad de datos con nulos, correlaciones y validaciones de limpieza.
+- Sección final con recomendaciones de negocio para DataTalent Solutions.
+
+### Versión principal de la app
+
+La versión principal se encuentra en:
+
+```bash
+streamlit_app.py
+
+streamlit run streamlit_app.py
+```
+### Versión experimental de la app Streamlit
+
+Además de la versión principal del dashboard, el proyecto incluye una versión experimental de la aplicación Streamlit pensada para probar mejoras visuales y comparar diferentes formas de representar los datos del EDA.
+
+El archivo de esta versión es `streamlit_app_experimental.py`.
+
+### Descripción
+
+La versión experimental mantiene la misma lógica analítica que la app principal. Utiliza los datasets generados en las fases de limpieza y EDA, aplica filtros interactivos y permite explorar ofertas laborales, skills técnicas, tecnologías, salarios, posibles sesgos y calidad de datos.
+
+La diferencia principal es que esta versión añade más control visual para el usuario. En varias gráficas se puede elegir el tipo de visualización más adecuado para analizar los datos, lo que facilita comparar patrones desde diferentes perspectivas.
+
+### Mejoras incluidas
+
+- Cada gráfica muestra explícitamente el tipo de visualización utilizada.
+- Las gráficas principales permiten seleccionar distintos formatos visuales.
+- Se añaden opciones como barras horizontales, barras verticales, donut, treemap, dispersión, boxplot, violin y barras por score.
+- La visualización de skills con mejor combinación entre alta demanda y buen salario puede verse como gráfico de dispersión o como ranking por score combinado.
+- Permite comparar visualmente distintas formas de presentar los mismos datos antes de integrar cambios en la versión principal.
+- Sirve como versión de prueba para mejorar la presentación del dashboard sin modificar la app estable.
+
+### Método de arranque
+
+Para ejecutar la versión experimental desde la raíz del repositorio:
+
+```bash
+streamlit run streamlit_app_experimental.py --server.port 8502
+
+
+
+
+
+
